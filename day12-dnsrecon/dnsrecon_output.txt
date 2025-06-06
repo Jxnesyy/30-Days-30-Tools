@@ -1,0 +1,11 @@
+[*] std: Performing General Enumeration against: testphp.vulnweb.com...
+[*] Checking for Zone Transfer for testphp.vulnweb.com name servers
+[*] Resolving SOA Record
+[*] Resolving NS Records
+[*] NS Servers found:
+[*] Removing any duplicate NS server IP Addresses...
+[*] Checking for Zone Transfer for testphp.vulnweb.com name servers
+[*] Resolving SOA Record
+[*] Resolving NS Records
+[*] NS Servers found:
+[*] Removing any duplicate NS server IP Addresses...

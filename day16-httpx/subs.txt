@@ -1,0 +1,3 @@
+tesla.com
+login.tesla.com
+api.tesla.com

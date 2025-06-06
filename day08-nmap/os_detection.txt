@@ -1,0 +1,19 @@
+# Nmap 7.95 scan initiated Fri Jun  6 12:56:26 2025 as: /usr/lib/nmap/nmap -O -oN os_detection.txt scanme.nmap.org
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.16s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+80/tcp    open     http
+427/tcp   filtered svrloc
+9929/tcp  open     nping-echo
+31337/tcp open     Elite
+Device type: general purpose|router
+Running: Linux 5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 5.0 - 5.14, MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 21 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jun  6 12:56:32 2025 -- 1 IP address (1 host up) scanned in 5.93 seconds
