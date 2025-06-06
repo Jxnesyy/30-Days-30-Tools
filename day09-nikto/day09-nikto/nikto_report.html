@@ -1,0 +1,33 @@
+# 🛡️ Day 9 - Nikto Web Vulnerability Scanner
+
+## 🎯 Target 1: testphp.vulnweb.com
+- Web server: Apache/2.2.8
+- X-Powered-By header reveals PHP/5.2.4
+- Found `/phpinfo.php` – exposes environment variables
+- Detected `/admin/` and other test directories
+- Outdated server software flag
+
+## 🎯 Target 2: scanme.nmap.org
+- Detected open directory browsing
+- Server banner leaks: Apache/2.4.7
+- Found possible misconfigured CGI directory
+
+## 🔧 Tools Used
+- `nikto` for scanning
+- `gnome-screenshot` for documentation
+
+## 📂 Artifacts
+- `basic_scan.txt`
+- `scanme_scan.txt`
+- `nikto_report.html`
+- Screenshots in `screenshots/`
+
+## 💡 Observations
+- Nikto is great for fast recon, especially in bug bounty workflows.
+- HTML output useful for clients, but not stealthy.
+- Use Burp or OWASP ZAP for deeper testing and validation.
+
+---
+
+## 📌 Summary
+> Nikto found publicly exposed directories and outdated server versions. These results highlight potential misconfigurations and vulnerabilities that can be used in further stages like fuzzing, exploitation, or social engineering.
