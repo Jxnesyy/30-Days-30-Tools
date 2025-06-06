@@ -1,0 +1,3 @@
+For Day 6, I ran a Nikto scan against testphp.vulnweb.com. It exposed potential issues with HTTP server configurations and listed common vulnerabilities.
+
+Nikto is fast, straightforward, and helps highlight low-hanging fruit before deep scans.
