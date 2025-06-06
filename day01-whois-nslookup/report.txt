@@ -1,0 +1,4 @@
+Performed DNS and domain recon on bbc.co.uk using WHOIS and NSLOOKUP. 
+The domain is registered under CSC Corporate Domains, owned by British Broadcasting Corporation, with no WHOIS privacy enabled. 
+NSLOOKUP revealed the domain resolves to 151.101.0.81 and uses cluster1.eu.messagelabs.com as its mail exchange, indicating enhanced email security. 
+DNS nameservers are split geographically across BBC’s infrastructure. No suspicious records were observed. This represents a secure, professional domain configuration.
