@@ -18,15 +18,15 @@ _A hands-on journey mastering digital security tools to build real-world income,
 | Day | Tool / Task             | Description                                      | Status |
 |-----|--------------------------|--------------------------------------------------|--------|
 | 1   | `whois` / `nslookup`     | Domain + DNS recon basics                        | ✅     |
-| 2   | `theHarvester`           | Email, domain, subdomain harvesting              | ⬜     |
-| 3   | `Recon-ng`               | Modular recon framework                          | ⬜     |
-| 4   | `Shodan`                 | Find exposed devices, ports, and cameras         | ⬜     |
-| 5   | `Spiderfoot`             | Automated deep OSINT analysis                    | ⬜     |
-| 6   | `crt.sh` + `hunter.io`   | Certificate transparency + email search          | ⬜     |
-| 7   | Report Build             | Asset map & recon report for target              | ⬜     |
-| 8   | `Nmap`                   | Port scanning, service & OS detection            | ⬜     |
-| 9   | `Nikto`                  | Web server vulnerability scanner                 | ⬜     |
-| 10  | `WhatWeb`                | Web tech & fingerprinting analysis               | ⬜     |
+| 2   | `theHarvester`           | Email, domain, subdomain harvesting              | ✅     |
+| 3   | `Recon-ng`               | Modular recon framework                          | ✅     |
+| 4   | `Shodan`                 | Find exposed devices, ports, and cameras         | ✅     |
+| 5   | `Spiderfoot`             | Automated deep OSINT analysis                    | ✅     |
+| 6   | `crt.sh` + `hunter.io`   | Certificate transparency + email search          | ✅     |
+| 7   | Report Build             | Asset map & recon report for target              | ✅     |
+| 8   | `Nmap`                   | Port scanning, service & OS detection            | ✅     |
+| 9   | `Nikto`                  | Web server vulnerability scanner                 | ✅     |
+| 10  | `WhatWeb`                | Web tech & fingerprinting analysis               | ✅     |
 | 11  | `wpscan`                 | WordPress security scanner                       | ⬜     |
 | 12  | `OpenVAS`                | Comprehensive vulnerability assessment tool      | ⬜     |
 | 13  | `LinPEAS` / `WinPEAS`    | Privilege escalation enumeration                 | ⬜     |
