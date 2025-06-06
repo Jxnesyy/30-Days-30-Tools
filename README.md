@@ -1,54 +1,80 @@
-# 🚀 30 Days - 30 Tools: Digital Security Challenge
+# 🛡️ 30 Days – 30 Tools
 
-🔐 **By Jxnesyy**  
-_A hands-on journey mastering digital security tools to build real-world income, a strong portfolio, and client-ready skills._
+Welcome to my personal challenge: **30 days, 30 cybersecurity tools.**  
+Every day, I used a new infosec tool on real or vulnerable targets, saved my results, and documented what I learned. No fluff. Just raw skill-building, deep recon, and hacker mindset.
 
----
-
-## 🎯 Challenge Goals
-- ✅ Learn 30 essential cybersecurity tools
-- ✅ Build a public GitHub portfolio with daily documentation
-- ✅ Offer recon, auditing, and security services to clients
-- ✅ Develop income-generating services with proof of work
+> 🔥 Want to learn hacking? Hire a freelancer? Or just geek out on infosec?  
+> This repo is your open door. Explore it, fork it, or DM me with questions.
 
 ---
 
-## 📅 Tools & Progress Tracker
+## 🚀 Why I Did This
 
-| Day | Tool / Task             | Description                                      | Status |
-|-----|--------------------------|--------------------------------------------------|--------|
-| 1   | `whois` / `nslookup`     | Domain + DNS recon basics                        | ✅     |
-| 2   | `theHarvester`           | Email, domain, subdomain harvesting              | ✅     |
-| 3   | `Recon-ng`               | Modular recon framework                          | ✅     |
-| 4   | `Shodan`                 | Find exposed devices, ports, and cameras         | ✅     |
-| 5   | `Spiderfoot`             | Automated deep OSINT analysis                    | ✅     |
-| 6   | `crt.sh` + `hunter.io`   | Certificate transparency + email search          | ✅     |
-| 7   | Report Build             | Asset map & recon report for target              | ✅     |
-| 8   | `Nmap`                   | Port scanning, service & OS detection            | ✅     |
-| 9   | `Nikto`                  | Web server vulnerability scanner                 | ✅     |
-| 10  | `WhatWeb`                | Web tech & fingerprinting analysis               | ✅     |
-| 11  | `wpscan`                 | WordPress security scanner                       | ⬜     |
-| 12  | `OpenVAS`                | Comprehensive vulnerability assessment tool      | ⬜     |
-| 13  | `LinPEAS` / `WinPEAS`    | Privilege escalation enumeration                 | ⬜     |
-| 14  | Client-Style Report      | Simulated client vuln audit report               | ⬜     |
-| 15  | `Metasploit`             | Exploitation framework — intro & usage           | ⬜     |
-| 16  | `Searchsploit`           | Manual exploit discovery from Exploit-DB         | ⬜     |
-| 17  | `Burp Suite`             | Web interception, manipulation, testing          | ⬜     |
-| 18  | `Hydra`                  | Brute force common services                      | ⬜     |
-| 19  | `SQLMap`                 | Auto SQL injection scanner + POC                 | ⬜     |
-| 20  | `Responder`              | Network NTLM hash capture                        | ⬜     |
-| 21  | Writeup                  | Simulated red-team style walkthrough             | ⬜     |
-| 22  | `Dradis` or Markdown     | Reporting framework for clients                  | ⬜     |
-| 23  | `Bettercap`              | MITM tool for LAN sniffing + injection           | ⬜     |
-| 24  | `SecurityHeaders.io`     | Web header audit — quick win for clients         | ⬜     |
-| 25  | `MobSF`                  | Mobile app static/dynamic security analysis      | ⬜     |
-| 26  | `Nessus Essentials`      | Full enterprise-grade scanner (free tier)        | ⬜     |
-| 27  | Custom Tool Build        | Make your own tool and document it               | ⬜     |
-| 28  | GitHub Cleanup           | README, badges, docs polished for public view    | ⬜     |
-| 29  | Landing Page / Offer     | Build your cybersecurity service presentation    | ⬜     |
-| 30  | 🧑‍💻 Soft Launch          | Offer your first free or cheap security audit    | ⬜     |
+- 💻 Hands-on skill-building beyond theory  
+- 🧠 Become job-ready for penetration testing & digital forensics  
+- 📂 Build a public portfolio employers can **actually evaluate**  
+- 🧱 Lay the foundation for freelance security consulting
 
 ---
 
-## 🗂️ Project Structure
+## ✅ Completed Tools
+
+| 🔢 Day | 🧰 Tool        | 🔍 Function                     | 📂 Report File                          |
+|-------:|----------------|----------------------------------|-----------------------------------------|
+| 1      | `whois`        | Domain registration recon        | [`whois.txt`](day01-whois/whois.txt)    |
+| 2      | `nslookup`     | DNS server recon                 | [`nslookup.txt`](day02-nslookup/)       |
+| 3      | `theHarvester` | Email & host OSINT scraping      | [`harvester.txt`](day03-theharvester/)  |
+| 4      | `Nmap`         | Network scanning & banner grab   | [`nmap_scan.txt`](day04-nmap/)          |
+| 5      | `Dirb`         | Web directory brute-force        | [`dirb.txt`](day05-dirb/)               |
+| 6      | `Gobuster`     | Fast URL/dir brute-force         | [`gobuster.txt`](day06-gobuster/)       |
+| 7      | `Nikto`        | Web vulnerability scanner        | [`nikto.txt`](day07-nikto/)             |
+| 8      | `Wappalyzer`   | Web tech stack detection         | [`wappalyzer.txt`](day08-wappalyzer/)   |
+| 9      | `WhatCMS`      | CMS fingerprinting               | [`whatcms.txt`](day09-whatcms/)         |
+| 10     | `WhatWeb`      | Web technology fingerprinting    | [`whatweb_advanced.txt`](day10-whatweb/)|
+| ...    | `...`          | `...`                            | `...`                                   |
+
+> 🔁 List updates daily. By Day 30, this becomes a complete toolkit library.
+
+---
+
+## 📸 Sample Outputs
+
+Want to see **exactly** what each tool reveals?  
+Each folder contains:
+- Raw output files  
+- Notes on findings  
+- Command used  
+- Real target examples (CTF & vuln sites only)
+
+---
+
+## 👨‍💻 Who Am I?
+
+I'm **Jxnesyy** – a self-taught cybersecurity and blockchain enthusiast building tools, writing scripts, and helping people stay safe in the digital world.
+
+- 💼 Looking for freelance gigs or contract work  
+- 🧰 Always experimenting with tools, automation, and exploits  
+- 🎯 On a mission to **build real-world security solutions**
+
+---
+
+## 🤝 Let's Connect
+
+- 📩 DM me on GitHub or Reddit  
+- 🧠 Have a question about a tool? Open an [issue](https://github.com/Jxnesyy/30-days-30-tools/issues)  
+- 🔥 Want a **cybersecurity audit**, tool built, or your project tested? Let’s talk.
+
+---
+
+## ⭐️ Support the Challenge
+
+If you like what I’m building:
+- 🌟 Star this repo
+- 🍴 Fork and do your own version
+- 🧪 Use this format in your own portfolio
+
+---
+
+> Made with 💻 caffeine, 🔐 curiosity, and 🚫 zero fluff.
+nano README.md
 
