@@ -1,0 +1,41 @@
+# 🔍 Reconnaissance Report for `tesla.com`
+
+## 📄 Basic Info
+- Target Domain: tesla.com
+- IP Address: [From nslookup]
+- WHOIS Info: [Registrar, dates, contact]
+
+## 🧠 Intelligence Gathered
+
+### 🔗 Subdomains (via Sublist3r)
+- shop.tesla.com
+- software.tesla.com
+- investor.tesla.com
+- ...
+
+### 📧 Emails (via theHarvester & hunter.io)
+- press@tesla.com
+- ir@tesla.com
+- ...
+
+### 🔍 Shodan & Spiderfoot
+- Exposed Ports: 22 (SSH), 80 (HTTP), 443 (HTTPS)
+- Detected Services: Apache, nginx
+- Certificates: Found via crt.sh
+
+## 🗺️ Asset Map Overview
+| Category | Details |
+|---------|---------|
+| Domains | tesla.com |
+| Subdomains | See above |
+| Emails | See above |
+| Tech Stack | Apache, Cloudflare |
+| Open Ports | 22, 80, 443, 9929, 31337 |
+| Risk Areas | Exposed SSH, DNS leaks, old certs |
+
+---
+
+## 📌 Notes:
+- Some tools were rate-limited (VirusTotal)
+- Recommend fuzzing `/admin`, `/login`, and `/wp-login.php`
+
