@@ -1,0 +1,8 @@
+Used Sublist3r to enumerate subdomains for tesla.com. Over 100 subdomains were discovered, ranging from public assets (www.tesla.com, accounts.tesla.com) to internal services and regional cloud infrastructure (e.g. media-server-api.eng.vn.cloud.tesla.com). 
+
+Notably, subdomains were found for:
+- Payment systems (cryptopay*)
+- Developer/test environments (dev-hermes-qd)
+- GitHub infrastructure (gist.extgithub.tesla.com)
+
+The full list is saved in `tesla_subdomains.txt`. These findings are suitable for DNS scanning, port scanning, and exposure risk evaluation in later phases.
